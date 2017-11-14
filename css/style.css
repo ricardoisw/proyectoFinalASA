@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+html, body{
+	margin: 0;
+	font-family: "Raleway", "Arial", "Helvetica", sans-serif;
+
+}
+
+header{
+	height: 80px;
+	background-color: #000000;
+}
+
+header > img{
+	position: absolute;
+	left: 20px;
+}
+
+#navHeader{
+	display: block;
+	text-align: center;
+	padding-top: 15px;
+}
+
+#navHeader > ul{
+	display: inline-block;
+	
+}
+
+#navHeader > ul > li{
+	display: inline-block;
+    padding: 5px 25px 5px 25px;
+    border-left: 3px solid gray;
+}
+
+#navHeader > ul > li:last-child{
+	border-right: 3px solid gray;
+}
+
+#navHeader > ul > li > a{
+	text-decoration: none;
+	color:white;
+}
+
+#navHeader a:hover {
+   color: gray;
+}
+
+.line{
+	width: 100%;
+	height: 5px;
+	background-color: #575757;
+}
+
+#tituloAside{
+	margin-left: 20px;
+    font-size: 16px;
+
+}
+#listaUsuarios{
+    font-size: 16px;
+    text-align: left;
+        margin-left: 30px;
+
+
+}
+#btnAept{
+    text-align: center;
+
+
+}
+.botonEnviar {
+	background-color:#000000;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+text-indent:0;
+	border:1px solid #000000;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:86px;
+	text-decoration:none;
+	text-align:center;
+}.botonEnviar:hover {
+	background-color:#000000;
+}.botonEnviar:active {
+	position:relative;
+	top:1px;
+}
+
+#barraCA{
+   height: 550px;
+	background-color: #2a2a2a;
+	}
+
+#ulAside > li{
+	display: block;
+}
+
+#ulAside > li > div{
+	margin-bottom: 20px;
+	display: inline;
+}
+
+.lipAside{
+	display: inline-block;
+    padding-top: 0px;
+}
+
+.lipAside a{
+	position: relative;
+    bottom: 10px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+aside{
+	width: 20%;
+	display: inline-block;
+}
+
+section{
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+    margin-top: 30px;
+}
+
+#containerProducto h1{
+	display: inline;
+    font-size: 60px;
+    margin-left: 100px;
+}
+
+#containerProducto img{
+	float: right;
+	margin-right: 100px;
+}
+
+#navProducto ul{
+	width: 100%;
+	margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+#navProducto > ul > li{
+	display: inline-block;
+    padding: 5px 10px 5px 10px;
+    border-left: 3px solid black;
+}
+
+#navProducto > ul > li > a{
+	text-decoration: none;
+	color: black;
+}
+
+#navProducto > ul > li:first-child{
+	border-left: none;
+}
+
+#containProducto{
+	width: 100%;
+	border: 2px solid black;
+	height: 220px;	
+}
+
+#searchBy{
+	display: inline-block;
+}
+
+#searchProducto{
+	display: inline-block;
+    margin-left: 20px;
+}
+
+#searchUsuario{
+	display: inline-block;
+    margin-left: 20px;
+}
+
+
+#searchProducto p{
+	position: relative;
+    top: 5px;
+}
+
+#searchIcon{
+	position: relative;
+    top: 5px;
+    background: black;
+    border-radius: 5px;
+}
+
+#footerProducto{
+	width: 80%;
+    margin-left: 20%;
+}
